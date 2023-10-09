@@ -68,7 +68,7 @@ export const Menu = styled("h5")`
 
 export const CustomNavLinkSmall = styled(NavLink)`
   font-size: 1.2rem;
-  color: #18216d;
+  color: #024652;
   transition: color 0.2s ease-in;
   margin: 0.5rem 2rem;
 
@@ -79,7 +79,7 @@ export const CustomNavLinkSmall = styled(NavLink)`
 
 export const Label = styled("span")`
   font-weight: 500;
-  color: #404041;
+  color: #024652;
   text-align: right;
   display: flex;
   justify-content: space-between;
@@ -97,7 +97,7 @@ export const Span = styled("span")`
   &:hover,
   &:active,
   &:focus {
-    color: rgb(255, 130, 92);
+    color: rgb(2, 70, 82);
     text-underline-position: under;
     text-decoration: rgb(255, 130, 92) wavy underline;
   }

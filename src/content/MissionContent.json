@@ -1,4 +1,38 @@
-{
-  "title": "Ready made sections",
-  "text": "Landy comes with a set of ready to use sections to help you easily create a landing page for your own brand, with all the content your startup desires. In order to replace any dummy elements (text, image, etc..) all you need to do is go to content folder and input your real content."
-}
+[
+  {
+    "title": "Repairs & Maintenance",
+    "text": "Our round-the-clock access to affordable and certified tradespeople means you get quality repairs and maintenance without any additional charges."
+  },
+  {
+    "title": "Property Inspections",
+    "text": "We provide detailed inspection reports every three months, addressing maintenance concerns and ensuring your property's integrity."
+  },
+  {
+    "title": "Rent Collection",
+    "text": "Our strict policy ensures timely rent collection, sparing you from any payment delays."
+  },
+  {
+    "title": "Property Knowledge",
+    "text": "Our experienced property managers are well-versed in property regulations, ensuring legal compliance and peace of mind."
+  },
+  {
+    "title": "Property Marketing",
+    "text": "We implement effective marketing strategies and thorough property viewings to attract high-quality tenants."
+  },
+  {
+    "title": "Tenancy Tribunal Representation",
+    "text": "Our knowledgeable staff will represent you at the Tenancy Tribunal, safeguarding your rights throughout the process."
+  },
+  {
+    "title": "Methamphetamine Testing",
+    "text": "We take proactive measures to protect your investment, minimizing the risk of drug contamination."
+  },
+  {
+    "title": "End of Year Financial Assistance",
+    "text": "For end-of-year financials, we diligently back up all data, ensuring its safety and security."
+  },
+  {
+    "title": "Tenant Screening",
+    "text": "Prior to accepting tenants, we conduct comprehensive credit and background checks, ensuring their financial stability and trustworthiness."
+  }
+]

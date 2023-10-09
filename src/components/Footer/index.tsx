@@ -50,17 +50,17 @@ const Footer = ({ t }: any) => {
       <FooterSection>
         <Container>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+            {/* <Col lg={10} md={10} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
               <Large to="/">{t("Tell us everything")}</Large>
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href="mailto:pm@rentaldr.co.nz">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            </Col> */}
+            {/* <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Policy")}</Title>
               <Large to="/" left="true">
                 {t("Application Security")}
@@ -77,32 +77,41 @@ const Footer = ({ t }: any) => {
               <Large left="true" to="/">
                 {t("Customer Support")}
               </Large>
-            </Col>
+            </Col> */}
           </Row>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
+              <Para>Auckland</Para>
+              {/* <Para>2131 Elk Street</Para> */}
+              <Para>New Zealand</Para>
             </Col>
             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
               <Large left="true" to="/">
                 {t("About")}
               </Large>
-              <Large left="true" to="/">
+              {/* <Large left="true" to="/">
                 {t("Blog")}
-              </Large>
-              <Large left="true" to="/">
+              </Large> */}
+              {/* <Large left="true" to="/">
                 {t("Press")}
-              </Large>
+              </Large> */}
               <Large left="true" to="/">
-                {t("Careers & Culture")}
+                {t("Services")}
               </Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
+              <Language>{t("Contact")}</Language>
+              <Large to="/">{t("Tell us everything")}</Large>
+              <Para>
+                {t(`Do you have any question? Feel free to reach out.`)}
+              </Para>
+              <a href="mailto:pm@rentaldr.co.nz">
+                <Chat>{t(`Let's Chat`)}</Chat>
+              </a>
+            </Col>
+            {/* <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -122,11 +131,11 @@ const Footer = ({ t }: any) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </FooterSection>
-      <Extra>
+      {/* <Extra>
         <Container border={true}>
           <Row
             justify="space-between"
@@ -136,10 +145,10 @@ const Footer = ({ t }: any) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="logo.png"
                   aria-label="homepage"
-                  width="101px"
-                  height="64px"
+                  width="200px"
+                  height="164px"
                 />
               </LogoContainer>
             </NavLink>
@@ -169,7 +178,7 @@ const Footer = ({ t }: any) => {
             </FooterContainer>
           </Row>
         </Container>
-      </Extra>
+      </Extra> */}
     </>
   );
 };

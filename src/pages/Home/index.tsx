@@ -21,36 +21,99 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="landing.svg"
         id="intro"
-      />
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
       />
       <ContentBlock
         type="left"
         title={AboutContent.title}
         content={AboutContent.text}
-        section={AboutContent.section}
+        // section={AboutContent.section}
         icon="graphs.svg"
         id="about"
       />
       <ContentBlock
         type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
+        title={MissionContent[0].title}
+        content={MissionContent[0].text}
+        icon="repairs.svg"
+        id="mission"
+      />
+      <ContentBlock
+        type="left"
+        title={MissionContent[1].title}
+        content={MissionContent[1].text}
+        icon="inspection.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="right"
+        title={MissionContent[2].title}
+        content={MissionContent[2].text}
+        icon="rent.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="left"
+        title={MissionContent[3].title}
+        content={MissionContent[3].text}
+        icon="knowledge.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="right"
+        title={MissionContent[4].title}
+        content={MissionContent[4].text}
+        icon="sale.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="left"
+        title={MissionContent[5].title}
+        content={MissionContent[5].text}
+        icon="judge.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="right"
+        title={MissionContent[6].title}
+        content={MissionContent[6].text}
+        icon="test.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="left"
+        title={MissionContent[7].title}
+        content={MissionContent[7].text}
+        icon="finance.svg"
+        id="mission"
+      />
+      
+      <ContentBlock
+        type="right"
+        title={MissionContent[8].title}
+        content={MissionContent[8].text}
+        icon="family.svg"
         id="mission"
       />
       <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
+        icon="smarth.jpg"
         id="product"
       />
+      {/* <MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+      /> */}
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}
